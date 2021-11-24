@@ -5,7 +5,7 @@
 			<destination>{99336242-417f-4cd5-a635-c6f7aeffceea}</destination>
 		</relationship>
 		<relationship name="changelist">
-			<destination>{289ce04c-89a1-45bc-a15c-60c23a5fdbd1}</destination>
+			<destination>{d64846a2-9d4d-4389-8b7e-1f57ad3babea}</destination>
 		</relationship>
 	</object>
 	<object class="ProjectSettings" id="{99336242-417f-4cd5-a635-c6f7aeffceea}">
@@ -13,5 +13,5 @@
 			<destination>{910049ea-ed11-4e40-ba65-32adcb514672}</destination>
 		</relationship>
 	</object>
-	<object class="WorkspaceChangelist" id="{289ce04c-89a1-45bc-a15c-60c23a5fdbd1}" />
+	<object class="WorkspaceChangelist" id="{d64846a2-9d4d-4389-8b7e-1f57ad3babea}" />
 </objects>
