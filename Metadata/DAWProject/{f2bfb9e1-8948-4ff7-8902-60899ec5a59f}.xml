@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWProject" id="{f2bfb9e1-8948-4ff7-8902-60899ec5a59f}">
+		<property name="assetPath">
+			<value>ArpgT1.rpp.link/</value>
+		</property>
+		<property name="dawProjectPath">
+			<value>D:/Ljudproduktion/Reaper/Projects/ArpgT1/ArpgT1.rpp</value>
+		</property>
+		<property name="renderedAssetsPath">
+			<value>Bounces</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>
+		</relationship>
+	</object>
+</objects>

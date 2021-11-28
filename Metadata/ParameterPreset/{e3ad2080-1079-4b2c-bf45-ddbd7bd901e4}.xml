@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e3ad2080-1079-4b2c-bf45-ddbd7bd901e4}">
+		<property name="name">
+			<value>OpenLocked</value>
+		</property>
+		<relationship name="folder">
+			<destination>{157f46b5-ce8f-4dcb-aab2-d1e0e272875c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{621a9210-aefd-4175-996b-693ad2086617}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{621a9210-aefd-4175-996b-693ad2086617}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
