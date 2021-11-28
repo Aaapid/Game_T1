@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWAsset" id="{bb739dbd-5e82-46f7-8d23-3daa14df0399}">
+		<property name="assetPath">
+			<value>ArpgT1.rpp.link/DoorLocked3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.6046666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{f2bfb9e1-8948-4ff7-8902-60899ec5a59f}</destination>
+		</relationship>
+	</object>
+</objects>
