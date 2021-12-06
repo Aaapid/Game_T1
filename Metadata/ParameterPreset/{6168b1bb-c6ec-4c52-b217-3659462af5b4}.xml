@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{6168b1bb-c6ec-4c52-b217-3659462af5b4}">
 		<property name="name">
-			<value>StepsLoop</value>
+			<value>StepsLoopMaterials</value>
 		</property>
 		<relationship name="folder">
 			<destination>{157f46b5-ce8f-4dcb-aab2-d1e0e272875c}</destination>
@@ -12,6 +12,9 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{7e434007-c20e-4cf0-89c3-5864fc194f8c}">
+		<property name="maximum">
+			<value>3</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>
