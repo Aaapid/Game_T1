@@ -5,13 +5,13 @@
 			<value>Characters/Enemies/Impacts/EnemyHit.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>96</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.38530208333333332</value>
+			<value>0.38529166666666664</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>
