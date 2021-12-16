@@ -59,7 +59,14 @@
 			<destination>{7a9ea782-fa2b-42d6-a909-696b30176456}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{df0b00a8-f561-4f0c-8f30-5176e5c25dd7}" />
+	<object class="EventAutomatableProperties" id="{df0b00a8-f561-4f0c-8f30-5176e5c25dd7}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1d849768-88d9-4d7b-b2f0-4c67cef762d3}" />
 	<object class="GroupTrack" id="{49d9ace2-fa54-4fb7-a9ca-66b138a46b4d}">
 		<relationship name="modules">
@@ -108,6 +115,12 @@
 		<property name="length">
 			<value>0.19999999999999996</value>
 		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{41d5aa21-2468-435a-8d47-a4801c5ce558}</destination>
 			<destination>{a3a88ff0-5d26-4986-a18f-c1f9e1322121}</destination>
@@ -120,6 +133,12 @@
 	<object class="SingleSound" id="{7d3fe746-6817-498c-816e-f3210a78ec31}">
 		<property name="length">
 			<value>0.20000000000000001</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0adf98a9-6c12-4e1e-9275-36f21f7368e8}</destination>
