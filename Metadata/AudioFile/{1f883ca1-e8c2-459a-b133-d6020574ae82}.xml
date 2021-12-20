@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1f883ca1-e8c2-459a-b133-d6020574ae82}">
 		<property name="assetPath">
-			<value>Linkfailed/PlayerTakingDMG_V2.wav</value>
+			<value>Linkfailed/Linkfailed/PlayerTakingDMG_V2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

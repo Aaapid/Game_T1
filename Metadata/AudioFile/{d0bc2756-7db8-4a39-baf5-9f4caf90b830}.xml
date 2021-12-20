@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d0bc2756-7db8-4a39-baf5-9f4caf90b830}">
 		<property name="assetPath">
-			<value>Linkfailed/FastSwoosh_V1.wav</value>
+			<value>Linkfailed/Linkfailed/FastSwoosh_V1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

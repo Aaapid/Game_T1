@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{43481d99-4155-4a58-9d92-fe5462ab1784}">
 		<property name="assetPath">
-			<value>Linkfailed/DoorLocked.wav</value>
+			<value>Linkfailed/Linkfailed/DoorLocked.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

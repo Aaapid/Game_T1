@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{6f5cd081-3c7f-4092-8c1e-096ccdb09e99}">
+	<object class="AudioFile" id="{15ab3e4c-0914-490b-a6e6-99c551cbbad4}">
 		<property name="assetPath">
-			<value>Linkfailed/Linkfailed/PlayerTakingDMG_V3.wav</value>
+			<value>Environments/ObjectAmbiences/Waterdrop8.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.52168749999999997</value>
+			<value>1.2</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{55310e93-aab8-4ac2-8a76-550aefbaa4f6}">
 		<property name="assetPath">
-			<value>Linkfailed/CryptScatterer_V6.wav</value>
+			<value>Linkfailed/Linkfailed/CryptScatterer_V6.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

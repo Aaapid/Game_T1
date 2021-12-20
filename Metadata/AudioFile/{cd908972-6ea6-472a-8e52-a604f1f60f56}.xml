@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{cd908972-6ea6-472a-8e52-a604f1f60f56}">
 		<property name="assetPath">
-			<value>Linkfailed/ZombieHItting_V1.wav</value>
+			<value>Linkfailed/Linkfailed/ZombieHItting_V1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

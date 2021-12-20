@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{45aed206-0095-4ed6-bb63-e3c47008d456}">
 		<property name="assetPath">
-			<value>Linkfailed/CryptAmbience-001.wav</value>
+			<value>Linkfailed/Linkfailed/CryptAmbience-001.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

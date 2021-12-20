@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b67a8c7f-fa0f-4c1a-8a14-19309f9f6898}">
 		<property name="assetPath">
-			<value>Linkfailed/MainCharIdle_V2.wav</value>
+			<value>Linkfailed/Linkfailed/MainCharIdle_V2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
