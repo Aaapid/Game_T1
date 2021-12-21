@@ -171,6 +171,7 @@
 			<destination>{88d12db6-beb3-4d60-84cc-fdde1692b56e}</destination>
 			<destination>{4119ed95-dd13-47e2-b27b-3389686efabe}</destination>
 			<destination>{a0af3d27-db1d-4221-94e1-e12138aeeac2}</destination>
+			<destination>{73117680-6ff1-40de-8d03-782ece13f5a5}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d97d3dc1-9b10-4c78-933f-2ee55741122e}</destination>
@@ -285,6 +286,7 @@
 			<destination>{4119ed95-dd13-47e2-b27b-3389686efabe}</destination>
 			<destination>{a0af3d27-db1d-4221-94e1-e12138aeeac2}</destination>
 			<destination>{40a25712-14db-4a54-84ec-7beda1161506}</destination>
+			<destination>{73117680-6ff1-40de-8d03-782ece13f5a5}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{674ef4d2-a8c3-48c6-8539-dd4b2430d54a}</destination>
@@ -1169,6 +1171,26 @@
 			<destination>{f2f27f42-4db7-4a7f-9681-20d57f487012}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{73117680-6ff1-40de-8d03-782ece13f5a5}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>39</value>
+		</property>
+		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>59.992609780324671</value>
+		</property>
+		<property name="length">
+			<value>10.007390219675329</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{a4cfcf52-a8ad-453c-836e-0a9f3210f30a}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{d97d3dc1-9b10-4c78-933f-2ee55741122e}">
 		<property name="name">
 			<value>Ambience/Random</value>
@@ -1254,9 +1276,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7f5d94c5-d89b-4644-8458-68ce51066770}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>9.5</value>
 		</property>
@@ -1511,6 +1530,9 @@
 		</property>
 		<property name="length">
 			<value>2.7099146206952964</value>
+		</property>
+		<property name="volume">
+			<value>-3.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{2e985ab7-067b-4d85-8ad1-fe0aa58e6580}</destination>
@@ -1923,7 +1945,7 @@
 	</object>
 	<object class="SingleSound" id="{1859f4eb-ddee-4414-8390-c8c066b9bb24}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-12</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{b154a7b5-952c-438f-98f4-92e44fb3f832}</destination>
@@ -1960,7 +1982,7 @@
 	<object class="SingleSound" id="{6f4125a6-98fb-4679-acad-c08651ba2928}" />
 	<object class="SingleSound" id="{f2f27f42-4db7-4a7f-9681-20d57f487012}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-16</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{facefebd-09c6-4138-a758-d112dbcdb2e6}</destination>
