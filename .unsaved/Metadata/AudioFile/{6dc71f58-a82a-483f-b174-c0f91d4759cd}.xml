@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{c8e7a3ad-efc7-464b-9b3c-b97e620c5f75}">
+	<object class="AudioFile" id="{6dc71f58-a82a-483f-b174-c0f91d4759cd}">
 		<property name="assetPath">
-			<value>Music/Choir-001.wav</value>
+			<value>Music/choir-003.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>8.0769166666666674</value>
+			<value>11.153854166666667</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>
