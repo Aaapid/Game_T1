@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{d0bc2756-7db8-4a39-baf5-9f4caf90b830}">
+	<object class="AudioFile" id="{69a8e3e3-20e6-4d35-ba3c-f2987642daa1}">
 		<property name="assetPath">
-			<value>Linkfailed/Linkfailed/FastSwoosh_V1.wav</value>
+			<value>Music/oneHit.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.46827083333333336</value>
+			<value>6.9230833333333335</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>
