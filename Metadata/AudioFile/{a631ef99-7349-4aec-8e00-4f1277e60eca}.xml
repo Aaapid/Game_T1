@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a631ef99-7349-4aec-8e00-4f1277e60eca}">
+		<property name="assetPath">
+			<value>Music/WeirdCrushVerb.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>16.923083333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>
+		</relationship>
+	</object>
+</objects>
