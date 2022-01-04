@@ -61,6 +61,9 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{28b30a5d-29ca-4de7-89ce-e68d01553626}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
@@ -208,7 +211,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>28.5</value>
+			<value>28.400000000000002</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5012f23f-4921-44e2-af14-f3f811b1355a}</destination>
