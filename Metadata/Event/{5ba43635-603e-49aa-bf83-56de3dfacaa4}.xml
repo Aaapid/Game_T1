@@ -363,9 +363,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{705906b1-c4aa-4f46-b333-9f681e85562a}">
-		<relationship name="automationTracks">
-			<destination>{e3348a52-695b-41bc-9969-9d867a87a410}</destination>
-		</relationship>
 		<relationship name="modules">
 			<destination>{81329e39-91a3-4c89-bd4b-e9ab11943786}</destination>
 			<destination>{c41d9c21-3889-4666-a3ed-a89c71f7af8e}</destination>
@@ -3400,11 +3397,6 @@
 			<destination>{fbd696e8-f5f8-463c-b0f5-124ff2c9c9ba}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationTrack" id="{e3348a52-695b-41bc-9969-9d867a87a410}">
-		<relationship name="automator">
-			<destination>{f937174a-08e7-4163-b1c0-f5ea176456c6}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{81329e39-91a3-4c89-bd4b-e9ab11943786}">
 		<property name="isAsync">
 			<value>true</value>
@@ -3594,7 +3586,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>152.69230769230771</value>
@@ -3611,7 +3603,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>165</value>
@@ -3628,7 +3620,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>186.15384615384616</value>
@@ -3645,7 +3637,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>177.30769230769232</value>
@@ -3662,7 +3654,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>201.15384615384616</value>
@@ -3679,7 +3671,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>211.53846153846155</value>
@@ -3696,7 +3688,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>223.07694070512821</value>
@@ -3713,7 +3705,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>234.23076923076925</value>
@@ -3730,7 +3722,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>242.57109092586521</value>
@@ -3749,7 +3741,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>254.07036247334753</value>
@@ -3766,7 +3758,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>266.61833688699357</value>
@@ -3783,7 +3775,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>289.64667218805602</value>
@@ -3800,7 +3792,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>87</value>
+			<value>82.5</value>
 		</property>
 		<property name="start">
 			<value>275.0283353010625</value>
@@ -5536,7 +5528,7 @@
 			<value>20.129580456718003</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>-10.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{1d15786c-727b-48af-b9c1-97d73cdef1e7}">
@@ -5544,7 +5536,7 @@
 			<value>30</value>
 		</property>
 		<property name="value">
-			<value>-15</value>
+			<value>-22.1428566</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{fccfd4dc-b531-4917-9523-b929c0201d3f}">
@@ -5552,7 +5544,7 @@
 			<value>70.160382368560803</value>
 		</property>
 		<property name="value">
-			<value>-15</value>
+			<value>-22.1428566</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>
@@ -5563,7 +5555,7 @@
 			<value>90.094530005310673</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-16.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{08f6ef36-4c77-4119-923e-6f3c51ce01fb}">
@@ -5571,7 +5563,7 @@
 			<value>72.381995085498247</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>-43.75</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5db868e5-5526-4ae5-a048-e2f20cbed3a8}">
@@ -5579,7 +5571,7 @@
 			<value>85.110993096123195</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
+			<value>-43.75</value>
 		</property>
 		<property name="curveShape">
 			<value>1</value>
@@ -5590,7 +5582,7 @@
 			<value>149.82999458581483</value>
 		</property>
 		<property name="value">
-			<value>-18</value>
+			<value>-26.4285717</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f8f3bb40-1834-48a4-b5cc-6c2713b57446}">
@@ -5598,7 +5590,7 @@
 			<value>309.82133188955066</value>
 		</property>
 		<property name="value">
-			<value>-18</value>
+			<value>-26.4285717</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9d844e27-74d2-4f65-a98b-6d948ddc8397}">
@@ -5606,7 +5598,7 @@
 			<value>130.10503519220359</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-16.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{549f927d-aa1b-4923-a1be-4a4f80213a4c}">
@@ -5671,6 +5663,9 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.308604956</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{faedfa7f-220c-4380-b580-8d06b12007c9}">
@@ -5793,6 +5788,9 @@
 		<property name="value">
 			<value>-16</value>
 		</property>
+		<property name="curveShape">
+			<value>0.605493963</value>
+		</property>
 	</object>
 	<object class="AutomationPoint" id="{b28b8b81-c8d5-4966-87a7-ced4bc7c918a}">
 		<property name="position">
@@ -5800,6 +5798,9 @@
 		</property>
 		<property name="value">
 			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.377074093</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7cca0544-a74a-425b-ae9a-e28f1001e7f1}">
