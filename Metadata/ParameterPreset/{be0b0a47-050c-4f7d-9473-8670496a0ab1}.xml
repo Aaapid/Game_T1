@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{be0b0a47-050c-4f7d-9473-8670496a0ab1}">
+		<property name="name">
+			<value>IsFemale</value>
+		</property>
+		<relationship name="folder">
+			<destination>{157f46b5-ce8f-4dcb-aab2-d1e0e272875c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b045a0c8-f0ef-4cff-8196-b5588dfb5623}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b045a0c8-f0ef-4cff-8196-b5588dfb5623}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

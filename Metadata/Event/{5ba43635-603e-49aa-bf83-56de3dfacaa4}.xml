@@ -56,6 +56,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{e806c379-5c91-43e7-bb1d-b11f8988a05f}</destination>
+			<destination>{9edf3938-f024-49e4-b036-4a0628b2bdc9}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{875ee9e5-0814-49d0-918b-a267f0e65665}</destination>
@@ -673,6 +674,11 @@
 	<object class="ParameterProxy" id="{e806c379-5c91-43e7-bb1d-b11f8988a05f}">
 		<relationship name="preset">
 			<destination>{17a05d0a-74a0-4c8b-a29c-48ce6cd4ddf9}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{9edf3938-f024-49e4-b036-4a0628b2bdc9}">
+		<relationship name="preset">
+			<destination>{7336f43e-7ec7-41c0-9002-bfb5412ca41c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fbd696e8-f5f8-463c-b0f5-124ff2c9c9ba}">
@@ -2014,10 +2020,10 @@
 			<value>76</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>2.20000005</value>
+			<value>3</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>36</value>
+			<value>8.80000019</value>
 		</property>
 		<property name="volumeRandomization">
 			<value>-4.5</value>
@@ -2034,7 +2040,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>21</value>
+			<value>40.5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
