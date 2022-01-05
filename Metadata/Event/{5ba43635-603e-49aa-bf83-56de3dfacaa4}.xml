@@ -364,6 +364,9 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{705906b1-c4aa-4f46-b333-9f681e85562a}">
+		<relationship name="automationTracks">
+			<destination>{282a2323-5bce-459e-970f-7d0d5de59aaf}</destination>
+		</relationship>
 		<relationship name="modules">
 			<destination>{81329e39-91a3-4c89-bd4b-e9ab11943786}</destination>
 			<destination>{c41d9c21-3889-4666-a3ed-a89c71f7af8e}</destination>
@@ -1861,6 +1864,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b23b459a-b3fd-4ff1-a871-8e618516fa6d}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="name">
 			<value>Clack</value>
 		</property>
@@ -3403,6 +3409,11 @@
 			<destination>{fbd696e8-f5f8-463c-b0f5-124ff2c9c9ba}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationTrack" id="{282a2323-5bce-459e-970f-7d0d5de59aaf}">
+		<relationship name="automator">
+			<destination>{f937174a-08e7-4163-b1c0-f5ea176456c6}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{81329e39-91a3-4c89-bd4b-e9ab11943786}">
 		<property name="isAsync">
 			<value>true</value>
@@ -4807,9 +4818,6 @@
 	<object class="RandomizerModulator" id="{cb7e5695-8a98-4a46-900a-4c8bb82cef76}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>
-		</property>
-		<property name="amount">
-			<value>9.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{967c2cf5-6eea-4142-9d13-8d0bc4790bca}">

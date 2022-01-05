@@ -18,5 +18,8 @@
 		<property name="initialValue">
 			<value>20</value>
 		</property>
+		<property name="seekSpeed">
+			<value>5</value>
+		</property>
 	</object>
 </objects>
