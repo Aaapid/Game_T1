@@ -103,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3871f40b-0f8f-4348-82cb-59b70b8ca56c}">
+		<relationship name="modulators">
+			<destination>{0f9e2ce9-e5f1-46e3-8f23-81f1025fd336}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{ad508f9d-03df-498e-a41c-450cfd0db493}</destination>
 		</relationship>
@@ -121,6 +124,9 @@
 	<object class="MixerBusPanner" id="{50383eac-5716-4109-9aeb-2fe162753e3e}" />
 	<object class="MultiSound" id="{b96bff85-c836-4718-a2e0-8ab824186c5c}">
 		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="length">
@@ -166,6 +172,9 @@
 	</object>
 	<object class="MultiSound" id="{beaf253a-b925-491e-95a5-8dc986da9991}">
 		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="length">
@@ -219,6 +228,23 @@
 		<relationship name="markerTrack">
 			<destination>{61d79664-07ca-4985-81e2-dcde32c51527}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{0f9e2ce9-e5f1-46e3-8f23-81f1025fd336}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>3600</value>
+		</property>
+		<property name="releaseShape">
+			<value>-0.0158339627</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ad508f9d-03df-498e-a41c-450cfd0db493}">
 		<relationship name="effects">
