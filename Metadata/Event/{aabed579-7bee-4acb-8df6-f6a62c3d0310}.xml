@@ -62,7 +62,14 @@
 			<destination>{7a9ea782-fa2b-42d6-a909-696b30176456}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{953d6f3a-c15a-494e-a31a-60c1281733b3}" />
+	<object class="EventAutomatableProperties" id="{953d6f3a-c15a-494e-a31a-60c1281733b3}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>15</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1579154a-d262-4415-871c-d9035ee17d33}" />
 	<object class="GroupTrack" id="{36031e58-4bd8-4c11-9660-0fc931b48ba7}">
 		<relationship name="mixerGroup">
@@ -80,6 +87,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{521884fe-38e7-441f-92b5-897c9f84c030}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{74839b3f-5d07-45f9-a092-8beea07df5f9}</destination>
 		</relationship>
@@ -123,7 +133,7 @@
 	<object class="MixerBusPanner" id="{da07fe0e-60d4-415b-88df-efdb8e63e7ee}" />
 	<object class="SingleSound" id="{24f8eb25-a7da-45c1-8416-612319405541}">
 		<property name="volume">
-			<value>1</value>
+			<value>10</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{4136fc32-eaa5-4998-afac-9a1c49eb0034}</destination>
