@@ -3247,9 +3247,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6655e8b2-ed23-4243-b0a8-7c65d807b98a}">
-		<property name="volume">
-			<value>-3</value>
-		</property>
 		<property name="name">
 			<value>Choir</value>
 		</property>
@@ -3540,7 +3537,7 @@
 			<value>7.6323060573857582</value>
 		</property>
 		<property name="volume">
-			<value>-2</value>
+			<value>-1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{c547e7bc-a39b-4d0a-974b-360d26f61ee7}</destination>
@@ -3557,7 +3554,7 @@
 			<value>7.729038161942011</value>
 		</property>
 		<property name="volume">
-			<value>-16</value>
+			<value>-10</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{5c9c637a-d6c8-4b87-8b9d-13683ab110c4}</destination>
@@ -7094,7 +7091,7 @@
 			<value>3</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>4</value>
 		</property>
 		<property name="curveShape">
 			<value>0.308604956</value>
@@ -7105,7 +7102,7 @@
 			<value>20</value>
 		</property>
 		<property name="value">
-			<value>-15</value>
+			<value>-11</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c6193c0d-1217-4942-8f15-80a7f0cd3594}">
@@ -7229,7 +7226,7 @@
 			<value>150</value>
 		</property>
 		<property name="value">
-			<value>-18</value>
+			<value>-15.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{abe7d7c1-4668-4a0c-a2d0-a54e3983bb5e}">
@@ -7237,7 +7234,7 @@
 			<value>70.133188955062266</value>
 		</property>
 		<property name="value">
-			<value>-18</value>
+			<value>-15.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0f568e68-8bf0-418e-ab59-5b921f0d7499}">
@@ -7245,7 +7242,7 @@
 			<value>90</value>
 		</property>
 		<property name="value">
-			<value>-18</value>
+			<value>-15.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d911d42c-4db1-45ca-91f9-b592425c6faa}">
@@ -7253,7 +7250,7 @@
 			<value>77.106659447753117</value>
 		</property>
 		<property name="value">
-			<value>-40</value>
+			<value>-35</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b28b8b81-c8d5-4966-87a7-ced4bc7c918a}">
@@ -7280,7 +7277,7 @@
 			<value>5</value>
 		</property>
 		<property name="value">
-			<value>-5.5</value>
+			<value>-10.5</value>
 		</property>
 		<property name="curveShape">
 			<value>0.436080486</value>
