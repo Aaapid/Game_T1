@@ -5189,9 +5189,6 @@
 		<relationship name="markerTrack">
 			<destination>{35ff8bdf-1cd0-4856-9fb5-4cfacbad6266}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{679bc6c2-6e2b-40d8-969e-39efe62dda2d}</destination>
-		</relationship>
 	</object>
 	<object class="LoopRegion" id="{cbcca769-988e-4c6c-bc41-393ba9cafdb5}">
 		<property name="position">
@@ -5211,9 +5208,6 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{35ff8bdf-1cd0-4856-9fb5-4cfacbad6266}</destination>
-		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{79aeeacb-ba25-4ab3-8d1e-45afeea8ec48}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{683491ec-6fae-4334-a965-2ec9001bc230}">
@@ -6555,28 +6549,6 @@
 			<destination>{17a05d0a-74a0-4c8b-a29c-48ce6cd4ddf9}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterCondition" id="{679bc6c2-6e2b-40d8-969e-39efe62dda2d}">
-		<property name="minimum">
-			<value>3</value>
-		</property>
-		<property name="maximum">
-			<value>10</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{17a05d0a-74a0-4c8b-a29c-48ce6cd4ddf9}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{79aeeacb-ba25-4ab3-8d1e-45afeea8ec48}">
-		<property name="minimum">
-			<value>3</value>
-		</property>
-		<property name="maximum">
-			<value>3.9000000953674316</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{17a05d0a-74a0-4c8b-a29c-48ce6cd4ddf9}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{f84f75f3-727c-41c4-bbba-456c8486ae10}">
 		<property name="minimum">
 			<value>2</value>
@@ -6590,7 +6562,7 @@
 	</object>
 	<object class="ParameterCondition" id="{bacb1f79-6769-4c97-bddf-fdcb3bdfc7e5}">
 		<property name="minimum">
-			<value>1.1000000238418579</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
 			<value>2.9000000953674316</value>
@@ -6601,7 +6573,7 @@
 	</object>
 	<object class="ParameterCondition" id="{eec87f30-3778-49bd-9c07-1ead23b6a13b}">
 		<property name="minimum">
-			<value>3.1000001430511475</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
 			<value>10</value>
@@ -6645,7 +6617,7 @@
 	</object>
 	<object class="ParameterCondition" id="{98fc9b28-6eee-4d64-8e43-49d4e4bff99b}">
 		<property name="minimum">
-			<value>3.1000001430511475</value>
+			<value>3</value>
 		</property>
 		<property name="maximum">
 			<value>10</value>
