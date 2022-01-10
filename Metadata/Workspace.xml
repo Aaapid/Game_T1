@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{e5874405-0063-4e1f-9b4f-8a78b857b44b}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../UP/game21-2021-1129-arpg-team-doe/Assets/Streaming Assets</value>
+			<value>../../Den of evil/game21-2021-1129-arpg-team-doe/Assets/Streaming Assets</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{0c69674d-e122-4857-b9dd-810f094c32aa}</destination>
