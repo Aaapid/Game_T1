@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{e5874405-0063-4e1f-9b4f-8a78b857b44b}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../UP/game21-2021-1129-arpg-team-doe/Assets/Streaming Assets</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{0c69674d-e122-4857-b9dd-810f094c32aa}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{570340ca-732c-4406-8e8a-c1beeb3f3daf}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{c9be7283-fd4b-43ca-b04d-97c65c17ccfa}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{157f46b5-ce8f-4dcb-aab2-d1e0e272875c}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{32b15df9-4dbb-4c77-822e-8e50ab20580c}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{23e2feff-5181-4b5b-8040-e18bf8fa5321}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{2dfded11-f080-49ba-a389-508e2d65dd80}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{7c6669cd-210f-428b-9fe1-b7e16a8d8c9c}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{6ce5c5aa-8daf-4654-8c5f-416ca697a84e}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{910049ea-ed11-4e40-ba65-32adcb514672}</destination>
+		</relationship>
+	</object>
+</objects>
