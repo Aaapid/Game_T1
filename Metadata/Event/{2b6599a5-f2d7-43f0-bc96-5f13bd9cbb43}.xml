@@ -57,8 +57,8 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a455f2cf-50f0-4332-b1f5-d883a0737f9c}">
-		<property name="isPersistent">
-			<value>true</value>
+		<property name="priority">
+			<value>1</value>
 		</property>
 		<property name="minimumDistance">
 			<value>2.4000001</value>
@@ -113,6 +113,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{531b848c-5040-4a76-bb63-d9891911c9bd}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -142,7 +145,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{548beebe-3e7e-483c-96c7-33f903ddc1bc}">
 		<relationship name="effects">
-			<destination>{8ddb5aba-b72d-42cc-abdf-bf802e2babc3}</destination>
 			<destination>{721fc9c7-0112-40f7-84be-7cd3fddb29f4}</destination>
 			<destination>{32482de6-c11b-49d8-a513-49ad7a838a21}</destination>
 		</relationship>
@@ -155,23 +157,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e85c1c04-a1aa-49c1-bfa3-c680f2124f73}" />
-	<object class="CompressorEffect" id="{8ddb5aba-b72d-42cc-abdf-bf802e2babc3}">
-		<property name="threshold">
-			<value>-42</value>
-		</property>
-		<property name="ratio">
-			<value>3.79999995</value>
-		</property>
-		<property name="attackTime">
-			<value>9.80000019</value>
-		</property>
-		<property name="releaseTime">
-			<value>64</value>
-		</property>
-		<property name="gain">
-			<value>10</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{721fc9c7-0112-40f7-84be-7cd3fddb29f4}" />
 	<object class="ObjectSpatialiserEffect" id="{32482de6-c11b-49d8-a513-49ad7a838a21}">
 		<property name="minimumDistance">
